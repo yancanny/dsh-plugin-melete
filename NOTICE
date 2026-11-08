@@ -1,0 +1,38 @@
+Melete — DeepSeek Harness plugin
+Copyright 2026 momonfucius and Melete contributors
+
+Licensing
+- Code (src/, dist/, scripts/) is licensed under the Apache License, Version 2.0 (see LICENSE).
+- The Melete Lens (lens/) is licensed under Creative Commons Attribution 4.0 International
+  (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+- The architecture, animals, sun and moon in the backgrounds and share images are original
+  line drawings made in code for this project.
+
+Background photos ("Your New World" page, assets/)
+- xinjiang-01-fir-forest.jpg — Xinjiang Fir forest, by lwtt93, CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Xinjiang_Fir_forest_(5211135412).jpg
+- xinjiang-02-moon-bay.jpg — Moon Bay, Kanas, by Niranarm, public domain
+  https://commons.wikimedia.org/wiki/File:MoonBay_IMG_0921.jpg
+- xinjiang-03-foggy-lake.jpg — Kanas Lake, Altay, by Muye Ma, CC0 1.0
+  https://commons.wikimedia.org/wiki/File:Kanas_Lake,_Altay,_China_(Unsplash).jpg
+- xinjiang-04-autumn-lake.jpg — Kanas Lake, by Charlie fong, public domain
+  https://commons.wikimedia.org/wiki/File:%E5%96%80%E7%BA%B3%E6%96%AF%E6%B9%96.jpg
+  The photos were only resized and compressed; nothing else was changed.
+
+"Voices" cards on the home page
+- These are excerpts from conversations between Yan Canny and several AI models, and from
+  chats with friends, on 8 November 2026. Model answers are quoted as written and do not
+  represent the views of the models' developers; model names only identify the source.
+  Friends' answers are shown with their consent under nicknames. Translations into other
+  languages were made for this project.
+
+Quotations
+- Quotations shown in the interface come from classical texts in the public domain. Short
+  modern translations were written for this project.
+
+Name
+- "Melete" is reserved by the author. Derivative works must credit the original source and
+  must not use the name for any feature that views other people's data.
+
+本插件的代码使用 Apache 2.0；照见图谱使用 CC BY 4.0；背景照片的作者与许可见上。
+使用、改编或再发布时请注明来源：Melete。"Melete"名称由作者保留，不得用于查看他人数据的功能。

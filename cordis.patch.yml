@@ -1,0 +1,4 @@
+# dsh-plugin-melete：同一个包提供主机半侧（读日志、调模型、存复盘）与浏览器半侧（左边栏入口与页面）
+- insert:
+    - id: melete
+      name: 'dsh-plugin-melete'

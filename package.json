@@ -1,0 +1,44 @@
+{
+  "name": "dsh-plugin-melete",
+  "version": "0.1.1",
+  "description": "Melete：本地运行的 AI 使用复盘插件。",
+  "type": "module",
+  "main": "src/host.js",
+  "scripts": {
+    "sync-core": "node scripts/sync-core.js",
+    "check-core": "node scripts/sync-core.js --check",
+    "prepack": "node scripts/sync-core.js"
+  },
+  "exports": {
+    ".": "./src/host.js",
+    "./client": "./dist/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": ["src", "dist", "lens", "assets", "cordis.patch.yml", "README.md", "LICENSE", "NOTICE"],
+  "keywords": ["dsh-plugin", "melete", "reflection", "review"],
+  "author": "Yan Canny",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yancanny/dsh-plugin-melete.git"
+  },
+  "homepage": "https://github.com/yancanny/dsh-plugin-melete#readme",
+  "bugs": {
+    "url": "https://github.com/yancanny/dsh-plugin-melete/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}
